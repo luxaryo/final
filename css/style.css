@@ -1,18 +1,28 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     background-color: black;
+    color: white;
 }
 
 
 /* BANNER */
 h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 3rem;
     text-transform: uppercase;
     color: #b41b1b;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .btn-banner {
@@ -39,15 +49,15 @@ h1 {
     left: 10px;
 }
 
-/* INTRO */
+nav {
+    font-family: 'Roboto', sans-serif;
+}
 
 .intro {
     background-color: white;
     font-size: 0.9rem;
+    color: black;
 }
-
-
-/* HISOTIRA */
 
 .cuadro {
     color: white;
@@ -84,17 +94,25 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.titulos {
+    color: black;
+}
 
-/* CONTACTO */
+.info-c
+{
+    padding: 50px;
+}
+
 .contact
 {
     padding: 20px;
 }
 
+.form-c {
+    padding: 5px;
+}
 
-/* FOOTER */
 .footer {
-    background-color: white;
     color: black;
     font-size: 0.8rem;
 }
@@ -104,7 +122,7 @@ h1 {
     border-radius: 0%;
 }
 
-/* MOBILE */
+
 @media (max-width: 576px) {
     .deskpot, .tablet {
         display: none;
@@ -112,7 +130,7 @@ h1 {
 }
 
 
-/* TABLET */
+
 
 @media (min-width: 577px) and (max-width: 991px) {
     .deskpot {
@@ -127,7 +145,7 @@ h1 {
     }
 }
 
-/* DESKPOT */
+
 @media (min-width: 992px) {
     .mobile {
         display: none;
@@ -136,6 +154,15 @@ h1 {
     .card {
         height: 600px;
         border: 0px;
+    }
+
+    .wp-img {
+        transition: 0.5s;
+        -webkit-filter: grayscale(100%); 
+    }
+    .wp-img:hover {
+        filter: none;
+        -webkit-filter: grayscale(0%);
     }
     
 }
