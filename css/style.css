@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: black;
+}
+
+
+/* BANNER */
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #b41b1b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-banner {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-img {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+.banner-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* INTRO */
+
+.intro {
+    background-color: white;
+    font-size: 0.9rem;
+}
+
+
+/* HISOTIRA */
+
+.cuadro {
+    color: white;
+    padding: 15px 50px 15px 0px;
+    margin: 5px;
+}
+
+.historia {
+    border-left: 3px solid #ffffff;
+}
+
+.historia-year {
+    color: white;
+    padding: 25px;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.historia-img {
+    margin: 30px;
+    border: 1px solid white;
+}
+
+.historia-img-txt {
+    position: absolute;
+    color: black;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* CONTACTO */
+.contact
+{
+    padding: 20px;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: white;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.btn-footer {
+    margin: 10px 20px 10px 0px;
+    border-radius: 0%;
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+    .deskpot, .tablet {
+        display: none;
+    }
+}
+
+
+/* TABLET */
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .deskpot {
+        display: none;
+    }
+}
+
+@media (min-width: 766px) and (max-width: 991px) {
+    .card {
+        height: 480px;
+        font-size: 0.8rem;
+    }
+}
+
+/* DESKPOT */
+@media (min-width: 992px) {
+    .mobile {
+        display: none;
+    }
+
+    .card {
+        height: 600px;
+        border: 0px;
+    }
+    
+}
